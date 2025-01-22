@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: #ffffe4;
+    font-family: sans-serif;
+}
+
+.logo {
+    width:40%;
+    margin: 15px 15px;
+    display: inline-block;
+    float: left;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 20px 0px 0px 0px;
+    display: inline;
+}
+
+li a {
+    /* border: 1px solid red; */
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 16px;
+    float: right;
+}
+
+li a:hover {
+    color: #555;
+}
+li a:active {
+    background-color: blueviolet;
+    color: white;
+}
+
+.container {
+    position: relative;
+    background-image: url("assets/bg.png");\
+    background-size: cover;
+    width: 100%;
+    z-index: 1;
+}
+
+/* .bgimg {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    opacity: 0.5;
+} */
+
+.welcome {
+    position: absolute;
+    z-index: 2;
+    color: white;
+}
